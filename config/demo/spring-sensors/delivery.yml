@@ -53,7 +53,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: taptest.azurecr.io/full-workloads/supply-chain/spring-sensors-demo@sha256:f85c9e56975fcb60ed70b074fa1a737c35691ace19092af7c28d758fc1f3aee6
+        image: taptest.azurecr.io/full-workloads/supply-chain/spring-sensors-demo@sha256:46c13eae52d5b0ac6a3699d056f32be0991710f3a6706d04ff4fa28ca42f2720
         name: workload
         ports:
         - containerPort: 8080
